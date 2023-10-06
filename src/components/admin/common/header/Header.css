@@ -1,0 +1,70 @@
+.top-navbar {
+    width: calc(100% - 20px);
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  
+  .hamburger {
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(0deg, #2b4b43, #2b4b43);
+    padding: 15px 17px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger div {
+    width: 35px;
+    height: 4px;
+    background: #ffffff;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .top-menu {
+    width: calc(100% - 70px);
+    height: 100%;
+    background: #fff;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-text {
+    background: conic-gradient(from 217.4deg at 14.22% 13.32%, #3effc4 0deg, #c1ffec 123.75deg, #2b4b43 234.38deg, #3effc4 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .logout-icon {
+    transform: rotate(180deg);
+  }
+  
+  .top-menu ul {
+    display: flex;
+  }
+  
+  .top-menu ul li a {
+    display: block;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: linear-gradient(0deg, #2b4b43, #2b4b43);
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  
+  .top-menu ul li a:hover {
+    color: #fff;
+  }
+  
